@@ -1,0 +1,6 @@
+# Project exclude paths
+/project/target/
+/project1/target/
+/project1/target/scala-2.12/classes/
+/project2/target/
+/target/

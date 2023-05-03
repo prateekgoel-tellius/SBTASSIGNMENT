@@ -1,0 +1,5 @@
+lazy val root = (project in file("."))
+ .aggregate(project11, project22)
+lazy val project11 = project in file("project1")
+lazy val project22 = (project in file("project2"))
+ .dependsOn(project11)
